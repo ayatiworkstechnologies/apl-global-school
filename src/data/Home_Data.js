@@ -1,7 +1,11 @@
-import bigImg1 from "/assets/tab-1.webp";
-import smallImg1 from "/assets/tab-2.webp";
-import bigImg2 from "/assets/tab-2.webp";
-import smallImg2 from "/assets/tab-1.webp";
+import tab1 from "/assets/tab-1.png";
+import tab2 from "/assets/tab-2.png";
+
+import tab3 from "/assets/tab-3.png";
+import tab4 from "/assets/tab-4.png";
+
+import tab5 from "/assets/tab-5.png";
+import tab6 from "/assets/tab-6.png";
 
 import Meraki_1 from "/assets/icon/Meraki 1.png";
 import Meraki_2 from "/assets/icon/Meraki 2.png";
@@ -46,8 +50,8 @@ export const tabContent = {
       { label: "Publishing", icon: Meraki_4 },
     ],
     images: [
-      { big: bigImg1, small: smallImg1 },
-      { big: bigImg2, small: smallImg2 },
+      { big: tab1, small: tab2 },
+       { big: tab1, small: tab2 },
     ],
   },
   "Expressions Clubs": {
@@ -69,8 +73,9 @@ export const tabContent = {
       { label: "Music Club", icon: Ex_11 },
     ],
     images: [
-      { big: bigImg1, small: smallImg1 },
-      { big: bigImg2, small: smallImg2 },
+      { big: tab3, small: tab4 },
+       { big: tab3, small: tab4 },
+   
     ],
   },
   "APL Events": {
@@ -90,8 +95,9 @@ export const tabContent = {
       { label: "Mun at APL", icon: APL_9 },
     ],
     images: [
-      { big: bigImg1, small: smallImg1 },
-      { big: bigImg2, small: smallImg2 },
+      { big: tab5, small: tab6 },
+      { big: tab5, small: tab6 },
+      
     ],
   },
 };

@@ -6,6 +6,28 @@ import { IoClose } from "react-icons/io5";
 
 /* ---------- Default Items ---------- */
 const DEFAULT_ITEMS = [
+{
+  src: "/assets/nisha.png",
+  popupSrc: "/assets/nisha-popup.png",
+  alt: "Youngest Seven Summits Climber - Nisha",
+  para: "Nisha becomes the youngest climber",
+  title: [
+  "Nisha becomes the youngest climber. Nisha has successfully summited four peaks in three continents as part of the Seven Summits—the highest mountains on each continent—during the year 2025.",
+   "Her achievements include the successful ascents of peak of each of continent:",
+    "Mount Elbrus in Russia (Europe) on 19 April 2025",
+    "Mount Kilimanjaro in Tanzania (Africa) on 11 June 2025",
+    "Mount Kosciuszko (Australia) on 03 October 2025 + Carstensz Pyramid in Papua, Indonesia (Oceania) on 14 October 2025 (these 2 peaks form a part of the Messner version as well as Bass version of seven summits)",
+    "With these climbs, Nisha, at the age of 15, has become one of the youngest Indians and among the youngest globally to have summited Carstensz Pyramid, the highest peak in Oceania (and the most technically challenging mountain).",
+    "Nisha now has a clear plan to continue her journey:",
+    "January 2026: To summit Mount Aconcagua (South America)",
+    "April/May 2026: To attempt Mount Everest (Asia) - to be the Youngest female in the world to have summited Mount Everest from Nepal side",
+    "Following Everest, she will proceed to summit Denali (North America) and then Vinson Massif (Antarctica) — with the goal of completing all Seven Summits by the end of 2026.",
+    "Upon successful completion, she aspires to become the youngest woman in the world to complete the Seven Summits—bringing immense pride to Tamil Nadu and India."
+  ]
+
+},
+
+
   {
     src: "/assets/mention-1.webp",
     popupSrc: "/assets/special-1.webp",

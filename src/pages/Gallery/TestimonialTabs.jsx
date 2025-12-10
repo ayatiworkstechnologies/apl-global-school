@@ -210,78 +210,101 @@ export const testimonialData = {
     },
   ],
 
-  Parents: [
-    {
-      name: "Samiullah Khan & Sarah Fathima",
-      role: "Parents of Taha Fathima Khan",
-      message: [
-        "09/09/2009: The day our daughter, Taha Fathima Khan, got enrolled into APL Global School. Shifting schools for a 13 year old is not always a welcome thing. Still, it was the short travel distance, the accessibility, which initially prompted the idea.",
-        "We still remember the day as if it was yesterday. When we first visited the school, the warm and friendly atmosphere that prevailed overwhelmed us. We were shown around by the administrative in charge. As we toured around the corridors at different levels, the perfect balance of formal and voluntary learning was explicit from the amiable demeanour of the students, who walked around the bustling corridors. Every student appeared to be enjoying immensely. Here we noticed the enthusiasm and willingness of the youngsters to learn by doing rather than just studying all that is taught. The artistically designed and well-­‐equipped classrooms portrayed a perfect description, befitting the school’s name, “Academy for Personalized Learning”.",
-        "Apart from uninterrupted individual attention that is inevitably given to each student, it’s important to note that not just the academic performance but it’s also the social, cultural, behavioural and mental grooming that takes place in an extremely cordial environment. The school hosts a wide range of co-­‐curricular activities that enhance and accentuate the potential of the students. A broad variety of events, that are always lined up under the banner of the various cultural clubs organised by the school, determine the ceaseless endeavor to boost the intellectual and emotional aspect of the students’ personality.",
-        "The most remarkable aspect is the student -­‐ teacher rapport that goes a long way, resulting in the exceptional performance, be it examinations or inter -­‐ school activities. This two-­‐way open interaction has been an amazing and motivating factor for a comprehensive growth. The school has always been very supportive in allowing our daughter to cultivate, nourish and exhibit her talent. A special mention to the exemplary support rendered whilst preparing for CIE exams is pertinent, wherein extra coaching is continuously offered and performance assessed. It’s indeed a world-­‐class learning that is imparted without much emphasis on quantity; it’s the quality of students that emerge from this institution.",
-        "Our daughter has thoroughly enjoyed her four years of schooling, where, she entered as a vibrant adolescent, and passed out as a young lady, with the perfect amalgamation of intellect and maturity. Being elected, as the Assistant School Pupil Leader, and, later on, as School Pupil Leader, instilled in her a strong sense of leadership. Moreover, the career counselling offered by the school is of great help in allowing students to recognise their field of interest and eventually pursue courses of their choice. We would definitely recommend this school for its level of expertise in colossal training. For our daughter, the overall experience has been remarkable, with achieving three straight A*s, in biology, physics and chemistry, at her A level examinations. This proves beyond doubt how greatly the school has been pivotal in enhancing her dedication and commitment.",
-        "The uniqueness of the school is in its congruous approach, to both academic, and extra-­‐ curricular training. We also take this opportunity to thank the school: its management, teaching and non-­‐ teaching staff for being instrumental in our daughter’s achievements and accomplishments, by extending their valuable contributions in respective periphery. Being parents of an APL alum has been an extremely interesting and memorable experience.",
-      ],
-      image: user,
-    },
-    {
-      name: "Venkat",
-      role: "Parent",
-      message: [
-        "The day we chose and entered APL Global should have been a blessed day for our kids. We have submitted the future of our four kids viz., Nikarika, Sai Vinika, Sai Praveen and Nishika with APL Global. I could feel from the day one that APL GLOBAL is the eden garden of learning at three levels viz., gaining information, acquiring knowledge and attaining wisdom.  Under the lovely caring guidance of the head of the institution, respected madame Ms. ‘Gita Jagannathan’, our children learnt a lot about not only books but also the realities of the world.  With a lot of educational tours, our children have experienced lot of earthly experiences at farm houses and lot of technical exposure at hi-tech offices. I should specially mention about the caring guidance and helping hand rendered to Sai Vinika (who earlier left Singapore after completing IX grade and joined APL in June 2011 to complete X grade exams in Oct-November 2011). With only 3 months of preparing time available for her, Madame Gita Jagannathan, Head of the institution along with Madame Kiran Merchant (The Principal) exquisitely planned personalised programme for preparing her for the X grade exams. I should also mention about the dedication of the faculty Ms. Nilanthi (Physics), Ms.Jayalakhmi (Chemistry), Ms.Sarija and Ms.Radhika (Biology) and Ms.Viswabharathi (Mathematics) (not to mention about lab technicians and other staff members), all of them took so much care for her future, conducting  coaching classes even after school hours and conducting laboratory practices even during holidays.  Question papers were prepared meticulously for the Mock exams results which were thoroughly scrutinized to reduce her mistakes and to prepare her for the finals.One rarely comes across such selfless dedication, sacrificing their routines for the betterment of the child under their care. They all toiled tirelessly and literally removed her exam pressure.  It was so wonderful and heart filling to see the entire workforce and amenities of the institution were deployed for the welfare of this child’s success. Under their able guidance and constant care, Sai Vinika finished her X grade with flying colours scoring many ‘A’ grades. I surely feel that the pages of her successful future will be engraved with golden letters of affection and loving care meted out by these good samaritans who literally shared her burden. The name APL (Academy for Personalised Learning) is well chosen and most suitable for this school and the motto “Realizing Potential” is well served for the future of not only one Sai Vinika but for every child under their care. Could I reverse the Time Machine rewinding life cycle, I would have readily become a student of the loving and caring school APL GLOBAL to live the student life filled with fragrance of caring education. I pray to the divine almighty to keep the institution and its lovely people in good shape for many years to come for preparing young folks for their best future.",
-      ],
-      image: user,
-    },
-    {
-      name: "Manohar Krishnan",
-      role: "Parent of Tapaz",
-      message:
-        "APL GLOBAL has been the ideal school for my son Tapaz. Tapaz joined the school for his AS and A levels. My son has finished his A level and is now in the process of applying for his undergraduate studies in the US. I have found the teachers to be very helpful and student friendly. The Principal is easily approachable. The facilities in the school are top class. In the last three years that my son Tapaz had been there, I have seen the school grow in the right direction. I wish APL GLOBAL SCHOOL, its Principal and all the Teachers the very best in their future endeavors.",
-      image: user,
-    },
-    {
-      name: "Vijaya & Mohan",
-      role: "Parents of Niranjan",
-      message:
-        "We came to know about APL GLOBAL while having dinner with the promoters of the school, Gita and Jaggannathan who happen to be our family friends. Our son Niranjan had just finished his 10th exams through NIOS and wanted to keenly pursue competitive tennis along with his academics. APL Global was just about to kick-off and the casual conversation with the promoters led to a serious discussion with Dr Vasanthi Vasudev, the Academic Director who encouraged us and Niranjan in a manner which convinced us to enroll Niranjan in this school immediately without second thoughts. Niranjan can proudly say that he was one of the first students to enroll in APL when the strength was just 13. Niranjan is a national ranked tennis player. In order to continue his tennis seriously he had to necessarily participate in all the national level ranked tournaments conducted in various parts of the country throughout the year. For doing this he needed a school which could offer him the much required flexibility so as to enable him to take part in the tournaments as well as make up his academic back log whenever he was in town. This required a lot of planning between the student, parents and the school . The Flexi Stream offered by APL Global was just the perfect blend of what we expected. The personalized learning programme was tailored to meet Niranjan’s specific needs. The classes would always be taken in small groups or one-on-one classes. The school does not focus only on scholastic performance but also on brain based skills and attitudinal strengths. Though the Cambridge syllabus is more challenging than the other Indian syllabi, it is pertinent to mention that this definitely has a more holistic approach and grooms the students to take up challenges with confidence. The best part of the experience were the teaching staff who were well trained and excellent teachers who explained material clearly, prepared for classes and knew what they wished to accomplish. Niranjan’s teachers were very cooperative with him and would never hesitate to help him out on his missed work, be it class or test re-scheduling. The teachers were easily accessible by Niranjan and us. We would like to make a special mention about Kiran Merchant who has taken personal pains to coordinate Niranjan’s schedules in spite of her busy work. The school’s infrastructure is excellent with the state of art facilities creating a great atmosphere unlike the other regular ones. Niranjan has thoroughly enjoyed his stint in APL. He has not only been challenged academically, but has learnt life skills that he will carry with him the rest of his life. The school has been an incredible experience to our family.",
-      image: user,
-    },
-    {
-      name: "Dr. Cecil Daniel",
-      role: "Parent of Cynthia",
-      message:
-        "We are very fortunate that our child Cynthia is part of APL Global school in Grade 10. Cynthia has special needs, and we have found that APL Global provides her with a good mix of academics, and social development opportunity within a flexible framework. Based on expert evaluation and recommendation, the school suggested the NIOS (National Institute of Open School) curriculum for her, and also trained teachers to effectively teach this curriculum. NIOS provides interesting and life skills oriented subjects like Home Science, Painting, Word Processing, etc. and have a lot of flexibility in scheduling exams. We are very happy to see Cynthia doing well with this curriculum, and also enjoying school. The school provides an environment which enhances social interaction, and this has proved to be very helpful. Teachers are also genuinely interested in the students and the small classes help a lot. Overall we are fortunate to find such a good school, and strongly recommend this school for children with special needs.",
-      image: user,
-    },
-    {
-      name: "Aditya Sinha",
-      role: "Parent of Mrinalini",
-      message:
-        "I had never heard of the APL Global School until my daughter, who had done well in her 10th boards at a well-known Chennai school, mentioned that she would like to finish her secondary education here. We went and had a look at the campus and were immediately pleased with its design and layout, which were not only aesthetically pleasing but also seemed conducive for a new kind of learning, something that was different from the usual factories that much of our education system seems to have become. We found the director, Vasanthi Vasudev , filled with fresh ideas and a holistic approach to learning. I did not even have to think twice about the curriculum details; just the attitude seemed right for personalized learning. Indeed, during my daughter’s time here we have found the school teachers incredibly intense and committed about teaching the subjects, ensuring that the student is well prepared, and there is a level of monitoring that would be unthinkable in a larger school. The one thing that always frightened me about my children was that they might get lost in the school they attended, and that it would prevent them from fulfilling their potential. At APL Global, I know such fears are unfounded, and I feel that the school has, through its ultra-personalized approach, helped my daughter become a better student and a better person.",
-      image: user,
-    },
-    {
-      name: "Mrs Latha",
-      role: "Parent of Akshara Ramabadran",
-      message:
-        "I had never heard of the APL Global School until my daughter, who had done well in her 10th boards at a well-known Chennai school, mentioned that she would like to finish her secondary education here. We went and had a look at the campus and were immediately pleased with its design and layout, which were not only aesthetically pleasing but also seemed conducive for a new kind of learning, something that was different from the usual factories that much of our education system seems to have become. We found the director, Vasanthi Vasudev , filled with fresh ideas and a holistic approach to learning. I did not even have to think twice about the curriculum details; just the attitude seemed right for personalized learning. Indeed, during my daughter’s time here we have found the school teachers incredibly intense and committed about teaching the subjects, ensuring that the student is well prepared, and there is a level of monitoring that would be unthinkable in a larger school. The one thing that always frightened me about my children was that they might get lost in the school they attended, and that it would prevent them from fulfilling their potential. At APL Global, I know such fears are unfounded, and I feel that the school has, through its ultra-personalized approach, helped my daughter become a better student and a better person.",
-      image: user,
-    },
-    {
-      name: "Student",
-      role: "Parents of Nomita Saldanha",
-      message:
-        "In November 2008, my husband and I were in a frantic search for a good school in Chennai for our 14 year old daughter. No,we were not being relocated or transferred. In fact our daughter, a bright and creative girl, was studying in one of the best schools in Chennai, but was intensely unhappy with the Indian Education system and its dozen compulsory subjects and constant round of tests and exams. There were no suitable options available.A chance meeting with a close friend turned out to be a Blessing from Above. She had heard about a new school – APL Global which offered the International Cambridge Curriculum with Personalized Learning as their Motto. We went there and liked what we saw — Modern school building, bright and cheerful colours that exuded warmth, well ventilated classrooms, State of the Art Labs, creative and dedicated teachers and most of all a Curriculum and Examination Schedule that seemed tailor-made for our daughter.She has been a student at APL for 2 years now. She chose interesting subjects from a wide range that the school offers, did away with subjects that did not interest her, had supportive and caring teachers guiding her and passed her IGCSE with flying colours. She is currently doing her A levels and has had the opportunity to participate in International Competitions and National conferences and has blossomed into a confident young lady.",
-      image: user,
-    },
-    {
-      name: "Ramesh Kumar",
-      role: "Parent of Grade 5 Student",
-      message:
-        "APL respects each child’s uniqueness and provides a safe, inclusive environment for learning.",
-      image: user,
-    },
-  ],
+ Parents : [
+  {
+    name: "Ms Jane Jerold",
+    role: "Parent of Jethro Jean",
+    message: [
+      "The Kamalam division of APL Global School has been a truly transformative experience for my son, Jethro Jean. The customized curriculum has allowed him to explore his interests and strengths in an engaging and challenging way.",
+      "What impresses me most is the passion, patience, and genuine care the teachers bring to their work. Their dedication has empowered my son to overcome challenges and reach his full potential.",
+      "The mentors and school leaders take time to understand each child’s strengths, weaknesses, and learning style, often identifying potential even parents may not see. This personalized attention has helped Jean discover hidden talents and build confidence.",
+      "We also deeply appreciate initiatives like home visits, field trips, and organic farming, which strengthen the bond between parents, students, and staff.",
+      "APL Global has instilled confidence and empathy in my son. Seeing him support his peers during school events is a true testament to the school’s positive impact on his character and development."
+    ],
+    image: user,
+  },
+
+  {
+    name: "Pavithra Narasimman",
+    role: "Parent of Darshan Reddy (Class 11B)",
+    message: [
+      "We feel truly blessed to have our child studying at APL Global School.",
+      "The love, patience, and genuine care shown by the teachers have made a remarkable difference in our child’s confidence and happiness.",
+      "The school feels less like an institution and more like a second home where our child is understood, encouraged, and celebrated.",
+      "We are grateful to the entire team for shaping not just a student, but a strong and compassionate human being."
+    ],
+    image: user,
+  },
+
+  {
+    name: "Sashi Priyadarshni",
+    role: "Parent of Zara (4A)",
+    message: [
+      "I sincerely appreciate the positive changes implemented by the school in recent months, especially traffic management and revised school timings.",
+      "The staff managing traffic daily show remarkable patience and responsibility.",
+      "Parents Sports Day was wonderfully organized, creating a joyful and inclusive experience for families.",
+      "The academic and administrative staff are always approachable and supportive. Please extend my heartfelt thanks to the entire team."
+    ],
+    image: user,
+  },
+
+  {
+    name: "Lakshmi Ramaswamy & Nanda Kumar Parthasarathy",
+    role: "Parents of Vittal Nanda Kumar",
+    message: [
+      "We are sincerely grateful for identifying Vittal’s talent in Mathematics and encouraging him to pursue Tubular Maths.",
+      "The school’s flexibility in subject choices and personalized approach has played a vital role in nurturing our child’s confidence.",
+      "APL’s ability to recognize and create opportunities for children to showcase their unique talents is truly commendable.",
+      "Thank you for your unwavering commitment to our children’s holistic success."
+    ],
+    image: user,
+  },
+
+  {
+    name: "Anitha Arumugam",
+    role: "Parent of Shree Neetra",
+    message: [
+      "After struggling in a traditional CBSE school, enrolling my daughter at APL Global transformed her academic and emotional journey.",
+      "With personalized psychological support and dedicated special educators, she achieved remarkable academic success.",
+      "I am deeply grateful to the teachers, especially Mrs. Gomathy Prabhakar, who supported my daughter with compassion and care.",
+      "My daughter’s All-India High Achievement Award in Accounting would not have been possible without APL Global."
+    ],
+    image: user,
+  },
+
+  {
+    name: "Parents of N. Marwa Nachiyar",
+    role: "Parents",
+    message: [
+      "We are extremely grateful for the teachers’ continuous care, patience, and dedication.",
+      "We have witnessed exponential development in our daughter’s confidence and learning.",
+      "Our child feels safe, comfortable, and inspired, often seeing her teachers as role models at home."
+    ],
+    image: user,
+  },
+
+  {
+    name: "Mahalakshmi",
+    role: "Parent of Smriti Viswanathan",
+    message: [
+      "We are thankful to APL Global for creating a nurturing and balanced learning environment.",
+      "The focus on academics, values, and co-curricular growth has helped our child evolve into a confident and curious learner.",
+      "The emphasis on independent thinking and holistic development truly stands out."
+    ],
+    image: user,
+  },
+
+  {
+    name: "Ravishankar",
+    role: "Parent of R. S. Saiprassath",
+    message: [
+      "Quality education at APL Global is beautifully supported by excellent infrastructure and world-class amenities.",
+      "The thoughtful planning and execution of learning spaces truly enhance the overall student experience."
+    ],
+    image: user,
+  },
+],
+
 };
 
 // ✅ New data for the second Staff collapsible
@@ -368,7 +391,7 @@ export default function TestimonialTabs() {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
               transition={{ duration: 0.5 }}
-              className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8"
+              className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-8"
             >
               {testimonialData[activeTab].map((item, i) => (
                 <motion.div
@@ -382,17 +405,17 @@ export default function TestimonialTabs() {
                     className="w-20 h-20 rounded-full mx-auto object-cover mb-4 border-2 border-secondary"
                   />
                   <FaQuoteLeft className="text-secondary text-xl mx-auto mb-3" />
-                  <p className="text-sm text-gray-700 font-secondary italic mb-3">
+                  <p className="text-md text-gray-700 font-secondary italic mb-3">
                     "
                     {Array.isArray(item.message)
                       ? item.message.join(" ")
                       : item.message}
                     "
                   </p>
-                  <h3 className="font-primary font-bold text-primary text-base">
+                  <h3 className="font-primary font-bold text-primary text-lg">
                     {item.name}
                   </h3>
-                  <p className="text-xs text-secondary font-secondary">
+                  <p className="text-md text-secondary font-secondary">
                     {item.role}
                   </p>
                 </motion.div>
