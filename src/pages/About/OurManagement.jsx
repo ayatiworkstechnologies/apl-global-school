@@ -141,44 +141,48 @@ function OurManagement() {
             Our Management
           </h2>
 
-          {Management.map((member, index) => {
-            const isOdd = index % 2 === 1;
-            return (
-              <div
-                key={member.name}
-                className={`max-w-7xl mx-auto flex flex-col md:flex-row ${
-                  isOdd ? "md:flex-row-reverse" : ""
-                } items-center gap-10`}
-              >
-                {/* Text Section */}
-                <div className="w-full md:w-8/12 space-y-6">
-                  <h3 className="text-2xl sm:text-2xl font-bold text-primary font-primary flex items-center gap-3">
-                    {member.name.toUpperCase()}
-                    <span className="h-6 border-l-2 border-secondary"></span>
-                    {member.position.toUpperCase()}
-                  </h3>
+        {Management.map((member, index) => {
+  const isOdd = index % 2 === 1;
+  return (
+    <div
+      key={member.name}
+      className={`max-w-7xl mx-auto flex flex-col md:flex-row ${
+        isOdd ? "md:flex-row-reverse" : ""
+      } items-center gap-10`}
+    >
+      {/* Image: FIRST on mobile (order-1), but let desktop use the flex-direction (md:order-none) */}
+      <div className="w-full md:w-4/12 flex justify-center items-center order-1 md:order-none">
+        <img
+          src={member.Img}
+          alt={member.name}
+          className="w-full max-w-[350px] h-auto"
+        />
+      </div>
 
-                  {member.bio.map((para, idx) => (
-                    <p
-                      key={idx}
-                      className="text-black font-secondary text-base sm:text-base leading-relaxed"
-                    >
-                      {para}
-                    </p>
-                  ))}
-                </div>
+      {/* Text: SECOND on mobile (order-2), reset on md so desktop alternation remains unchanged */}
+      <div className="w-full md:w-8/12 space-y-6 order-2 md:order-none">
+        <h3 className="text-2xl sm:text-2xl font-bold text-primary font-primary flex items-center gap-3">
+          {member.name.toUpperCase()}
+          <span className="h-6 border-l-2 border-secondary"></span>
+          {member.position.toUpperCase()}
+        </h3>
 
-                {/* Image Section */}
-                <div className="w-full md:w-4/12 flex justify-center  items-center">
-                  <img
-                    src={member.Img}
-                    alt={member.name}
-                    className="w-full max-w-[350px] h-auto"
-                  />
-                </div>
-              </div>
-            );
-          })}
+        {member.bio.map((para, idx) => (
+          <p
+            key={idx}
+            className="text-black font-secondary text-base sm:text-base leading-relaxed"
+          >
+            {para}
+          </p>
+        ))}
+      </div>
+
+      {/* Mobile-only divider (hidden on md and up) */}
+      <div className="w-full border-t border-gray-300 my-6 block md:hidden"></div>
+    </div>
+  );
+})}
+
         </div>
         <APLVAlue4 />
       </section>

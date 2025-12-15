@@ -272,37 +272,7 @@ export const testimonialData = {
     image: user,
   },
 
-  {
-    name: "Parents of N. Marwa Nachiyar",
-    role: "Parents",
-    message: [
-      "We are extremely grateful for the teachers’ continuous care, patience, and dedication.",
-      "We have witnessed exponential development in our daughter’s confidence and learning.",
-      "Our child feels safe, comfortable, and inspired, often seeing her teachers as role models at home."
-    ],
-    image: user,
-  },
 
-  {
-    name: "Mahalakshmi",
-    role: "Parent of Smriti Viswanathan",
-    message: [
-      "We are thankful to APL Global for creating a nurturing and balanced learning environment.",
-      "The focus on academics, values, and co-curricular growth has helped our child evolve into a confident and curious learner.",
-      "The emphasis on independent thinking and holistic development truly stands out."
-    ],
-    image: user,
-  },
-
-  {
-    name: "Ravishankar",
-    role: "Parent of R. S. Saiprassath",
-    message: [
-      "Quality education at APL Global is beautifully supported by excellent infrastructure and world-class amenities.",
-      "The thoughtful planning and execution of learning spaces truly enhance the overall student experience."
-    ],
-    image: user,
-  },
 ],
 
 };

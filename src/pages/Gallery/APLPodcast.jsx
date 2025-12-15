@@ -130,7 +130,7 @@ function APLPODCAST() {
             <p className="text-sm font-secondary text-gray-700 mb-6">
               On learning about the exceptional pedagogy and holistic approach
               to education followed at APL, our founder and MD, Mrs. Gita
-              Jayanthra was invited by Chennai Live 104.8 FM for an interview on
+              Jagannathan was invited by Chennai Live 104.8 FM for an interview on
               5th September 2016. She spoke about the philosophy and the ethos
               of the school.
             </p>

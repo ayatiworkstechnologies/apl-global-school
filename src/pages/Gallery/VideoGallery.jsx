@@ -28,6 +28,11 @@ const videos = [
     To deepen their understanding, students also designed soundscapes using foley techniques to capture the mood and rhythm associated with each region. These original sound effects were then combined with photographs and videos of their masks and their foley explorations. The final work brings together clay craft, visual storytelling, and audio design, showcasing the students’ creativity, teamwork, and appreciation of cultural diversity.`,
     src: "https://www.youtube.com/embed/WkzkeyT_hBo",
   },
+    {
+    title:
+      "APL awarded ‘Most innovational learning pedagogy award 2021’ by CEII",
+    src: "https://www.youtube.com/embed/1pOqrxeg65w",
+  },
   {
     title:
       "Mrs Sarija Santhosh & Mrs Asha Porayath on Teacher training and mentorship",
@@ -61,11 +66,7 @@ const videos = [
     title: "A timelapse video – A fundraiser on autism awareness",
     src: "https://www.youtube.com/embed/cDMMoavadg4",
   },
-  {
-    title:
-      "APL awarded ‘Most innovational learning pedagogy award 2021’ by CEII",
-    src: "https://www.youtube.com/embed/1pOqrxeg65w",
-  },
+
 ];
 
 export default function VideoGallery() {
