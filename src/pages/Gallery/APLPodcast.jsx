@@ -15,6 +15,16 @@ const audioTracks = [
   { title: "Chennai Live Interview - Part 5", url: Music1 },
 ];
 const videos = [
+    {
+    title: "",
+    description:
+    [
+      'On October 6, 2025, Connaissance Specialists and We Avec U hosted an inspiring podcast session titled “Joyful Schools: Where Every Child Feels Seen, Heard & Valued”. Our founder Director Ms. Gita Jagannathan was in conversation with the host Ms Krithika. In the podcast she shares among other things, her insights on how we design learning spaces to ensure every child feels seen, heard, and valued.', 
+      'It is a pleasure to hear her talk about how she sees education, children and creating joyful learning environments.',
+    ],
+      
+    src: "https://www.youtube.com/embed/Tb3FCoRxxbU",
+  },
   {
     title: "EPISODE 1",
     description:
@@ -215,36 +225,44 @@ function APLPODCAST() {
           overview as they recall their journey in learning, they learned.
         </p>
 
-        {/* Podcast Episodes */}
-        <div className="space-y-20 mt-12">
-          {videos.map((video, idx) => (
-            <div
-              key={idx}
-              className={`flex flex-col md:flex-row ${
-                idx % 2 !== 0 ? "md:flex-row-reverse" : ""
-              } items-top gap-8`}
-            >
-              {/* Text Section */}
-              <div className="md:w-1/2 text-primary">
-                <h3 className="text-lg font-semibold font-primary text-primary underline underline-offset-4 decoration-secondary uppercase mb-2">
-                  {video.title}
-                </h3>
-                <p className="font-secondary">{video.description}</p>
-              </div>
+    {/* Podcast Episodes */}
+      <div className="space-y-20 mt-12">
+        {videos.map((video, idx) => (
+          <div
+            key={idx}
+            className={`flex flex-col md:flex-row ${
+              idx % 2 !== 0 ? "md:flex-row-reverse" : ""
+            } items-start gap-8`}
+          >
+            {/* Text Section */}
+            <div className="md:w-1/2 text-primary">
+              <h3 className="text-lg font-semibold font-primary underline underline-offset-4 decoration-secondary uppercase mb-4">
+                {video.title}
+              </h3>
 
-              {/* Video Section */}
-              <div className="md:w-1/2 aspect-video w-full rounded overflow-hidden shadow">
-                <iframe
-                  className="w-full h-full"
-                  src={video.src}
-                  title={`YouTube video ${idx + 1}`}
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
+              <div className="space-y-4 font-secondary text-base leading-relaxed">
+                {Array.isArray(video.description)
+                  ? video.description.map((line, i) => (
+                      <p key={i}>{line}</p>
+                    ))
+                  : <p>{video.description}</p>}
               </div>
             </div>
-          ))}
-        </div>
+
+            {/* Video Section */}
+            <div className="md:w-1/2 aspect-video w-full rounded-lg overflow-hidden shadow-lg">
+              <iframe
+                className="w-full h-full"
+                src={video.src}
+                title={`YouTube video ${idx + 1}`}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          </div>
+        ))}
+      </div>
+
       </section>
     </>
   );
