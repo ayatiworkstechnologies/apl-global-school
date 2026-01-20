@@ -2,6 +2,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MainLayout from "./layout/MainLayout";
 import HomePage from "./pages/HomePage";
+import GTMPageView from "./utils/GTMPageView";
+
 
 // About APL
 import OurEducational from "./pages/About/OurEducational";
@@ -71,6 +73,7 @@ import Faq from "./pages/Faq";
 function App() {
   return (
     <Router>
+        <GTMPageView />
       <ScrollToTop />
       <ToastContainer
         position="top-right"

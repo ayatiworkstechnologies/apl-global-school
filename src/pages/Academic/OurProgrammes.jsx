@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronDown, ChevronUp } from "lucide-react";
+import { FiChevronDown, FiChevronUp } from "react-icons/fi";
 import { MdDoubleArrow } from "react-icons/md";
 import AboutGraph from "/assets/about-graph.svg";
 import SynergySection from "../About/SynergySection";
 import APLVAlue2 from "../others/AplValue2";
 import APLVAlue3 from "../others/AplValue3";
+import APLValue6 from "../others/AplValue6";
 
 import StaticBanner from "../../components/StaticBanner";
 
@@ -55,7 +57,7 @@ const curriculumData = [
     ],
   },
   {
-    title: "Co-curricular Activities",
+    title: "Co-curricular Experiences",
     content: [
       "Games & Sports",
       "Music (till Grade 2)",
@@ -83,12 +85,13 @@ const curriculumData1 = [
       "Global Perspectives",
       "Second Language - Tamil/French/Hindi/Spanish/German",
       "Art",
+      "Drama",
       "Music",
       "Creative Movement",
     ],
   },
   {
-    title: "Co-curricular Activities",
+    title: "Co-curricular Experiences",
     content: ["Games ", "Expressions Clubs"],
   },
 ];
@@ -131,7 +134,7 @@ const curriculumData2 = [
     ],
   },
     {
-    title: "Co-curricular Activities - Upper Secondary",
+    title: "Co-curricular Experiences - Upper Secondary",
     content: ["Games ", "Expressions Clubs"],
   },
 ];
@@ -165,7 +168,7 @@ const curriculumData3 = [
     ],
   },
   {
-    title: "Co-curricular Activities - Advanced",
+    title: "Co-curricular Experiences - Advanced",
     content: [
       "Games",
       "Expressions Clubs",
@@ -218,8 +221,42 @@ const curriculumData4 = [
     ],
   },
   {
-    title: "Co-Curricular",
+    title: "Co-Curricular Experiences",
     content: ["Games", "Expressions Clubs"],
+  },
+];
+const subSections = [
+  {
+    title: "Forms of Knowledge",
+    items: [
+      "Literacy & Numeracy",
+      "Environmental Studies (EVS)",
+      "Computer Skills",
+      "Perception & Cognitive Skills",
+      "Activities of Daily Living (ADL)",
+      "Pre-Vocational & Vocational Training",
+    ],
+  },
+  {
+    title: "Co-Curricular Experiences",
+    items: [
+      "Music",
+      "Games & Sports",
+      "Creative Movement",
+      "Theatre",
+      "Club Activities",
+      "Meraki",
+    ],
+  },
+  {
+    title: "Therapeutic Support",
+    items: [
+      "Occupational Therapy",
+      "Speech Therapy",
+      "Music Therapy",
+    ],
+    footer:
+      "Our therapists and educators collaborate to ensure seamless support across the school day.",
   },
 ];
 
@@ -229,6 +266,9 @@ function OurProgrammes() {
   const toggleAccordion = (index) => {
     setOpenIndex(openIndex === index ? null : index);
   };
+
+    const [openMain, setOpenMain] = useState(true);
+  const [openSub, setOpenSub] = useState(null);
 
   return (
     <>
@@ -329,7 +369,7 @@ function OurProgrammes() {
                 Students learn to apply their knowledge and understanding to
                 solve new and unfamiliar problems. There are ample opportunities
                 to work independently or collaboratively and take intellectual
-                risks.   
+                risks.
               </p>
               <p className="text-black font-secondary text-sm sm:text-base md:text-lg leading-relaxed">
                 A roadmap to learning at the primary level – With a
@@ -435,7 +475,7 @@ function OurProgrammes() {
             {/* ✅ Left: Text Content */}
             <div className="flex-1 space-y-8">
               <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-primary font-primary border-b-2 border-secondary inline-block mb-4">
-                Cambridge Lower Secondary
+               Cambridge Lower Secondary
               </h2>
 
               <p className="text-black font-secondary text-sm sm:text-base md:text-lg leading-relaxed mb-4">
@@ -833,17 +873,36 @@ function OurProgrammes() {
                 Kamalam
               </h2>
 
-              <p className="text-black font-secondary text-sm sm:text-base md:text-lg leading-relaxed mb-4">
-                The ‘Kamalam Program’ is specifically designed for students who
-                are following the functional curriculum. The program plan will
-                be based on functional academics and independent living skills.
-                The curriculum will be tailor-made based on the readiness, and
-                will not be as per grade-level curriculum. Students on this
-                curriculum will be part of the whole group-class for some
-                co-curricular activities, depending on their strengths and
-                interests. Classes under the functional curriculum are conducted
-                in small groups by special educators.
-              </p>
+              <h4 className="text-xl sm:text-2xl md:text-3xl font-semibold text-primary font-primary mt-4">A Holistic Learning Unit for Unique Learners</h4>
+
+               <h6 className="text-sm sm:text-xl md:text-2xl font-semibold text-black font-primary mt-4">Where Every Child Finds Space to Grow, Learn & Shine</h6>
+
+              <p className="text-black font-secondary text-sm sm:text-base md:text-lg leading-relaxed">
+                 
+                 Kamalam is a nurturing learning space designed for children with diverse learning needs.<br/>
+                Here, we offer a warm, inclusive, and thoughtfully structured environment where learning is personalized and rooted in compassion. Education here goes beyond academics—it embraces life skills, social-emotional growth, and meaningful experiences that help children understand themselves and the world around them.
+                </p>
+
+                  <h4 className="text-xl sm:text-2xl md:text-3xl font-semibold text-primary font-primary mt-4">What Makes Kamalam Special</h4>
+
+                      <h6 className="text-sm sm:text-xl md:text-2xl font-semibold text-black font-primary mt-4">Customised Learning for Every Child</h6>
+
+                     <p className="text-black font-secondary text-sm sm:text-base md:text-lg leading-relaxed">
+                 
+                 Each learner at Kamalam follows an Individualised Education Plan (IEP) co-created by a dedicated team of special educators, therapists, coordinators, and parents. Every plan is rooted in the child’s unique strengths, interests, and needs, ensuring they grow with confidence, independence, and dignity.
+                </p>
+                <h4 className="text-xl sm:text-2xl md:text-3xl font-semibold text-primary font-primary mt-4">A Safe & Inclusive Space</h4>
+                <p className="text-black font-secondary text-sm sm:text-base md:text-lg leading-relaxed">
+                 
+                 Our classrooms are thoughtfully designed for comfort, safety, and sensory regulation, ensuring every child feels secure, valued, and ready to learn.
+                </p>
+              <h4 className="text-xl sm:text-2xl md:text-3xl font-semibold text-primary font-primary mt-4">Holistic Development at the Heart</h4>
+              <p className="text-black font-secondary text-sm sm:text-base md:text-lg leading-relaxed">   
+                  Beyond functional academics, we focus on building communication, independence, self-regulation, emotional well-being, social skills, and life readiness.
+                  </p>
+
+
+
              
             </div>
 
@@ -863,6 +922,105 @@ function OurProgrammes() {
             </motion.div>
           </div>
         </div>
+
+         {/* INNER ACCORDION */}
+      <section
+        style={{ backgroundImage: `url(${AboutGraph})` }}
+        className="bg-cover bg-center"
+      >
+        <div className="max-w-6xl mx-auto px-4 py-10">
+          <div className="border-b-2 border-secondary shadow-sm">
+            <button
+              onClick={() => setOpenMain(!openMain)}
+              className="w-full px-4 py-3 flex justify-between items-center font-primary font-semibold text-primary text-xl text-tertiary"
+            >
+              Learning at Kamalam
+              {openMain ? <FiChevronUp /> : <FiChevronDown />}
+            </button>
+
+            {openMain && (
+              <div className="px-4 pb-6 space-y-5">
+                <p className="font-secondary text-primary">
+                  <strong>Ages:</strong>{" "}
+                  <span className="text-secondary">7–18 years</span>
+                </p>
+
+                <p className="font-secondary text-primary">
+                  <strong>Learning Groups:</strong>{" "}
+                  <span className="text-secondary">
+                    Skill-based small groups
+                  </span>
+                </p>
+
+                <p className="font-secondary text-primary">
+                  Children progress at their own pace, supported through
+                  structured routines and hands-on learning.
+                </p>
+
+                {subSections.map((section, index) => (
+                  <div
+                    key={index}
+                    className="border border-gray-200 rounded-xl"
+                  >
+                    <button
+                      onClick={() =>
+                        setOpenSub(openSub === index ? null : index)
+                      }
+                      className="w-full px-4 py-3 flex justify-between items-center font-primary font-semibold text-primary"
+                    >
+                      {section.title}
+                      {openSub === index ? (
+                        <FiChevronUp />
+                      ) : (
+                        <FiChevronDown />
+                      )}
+                    </button>
+
+                    {openSub === index && (
+                      <div className="px-4 pb-4 space-y-2">
+                        {section.items.map((item, i) => (
+                          <div
+                            key={i}
+                            className="flex items-center gap-2 font-secondary text-primary"
+                          >
+                            <MdDoubleArrow className="text-secondary" />
+                            {item}
+                          </div>
+                        ))}
+
+                        {section.footer && (
+                          <p className="pt-3 text-sm font-secondary text-gray-600">
+                            {section.footer}
+                          </p>
+                        )}
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        </div>
+      </section>
+
+          <div className="max-w-6xl mx-auto px-4 md:px-8 py-16">
+          <div className="flex flex-col md:flex-row gap-10 items-start">
+            {/* ✅ Left: Text Content */}
+            <div className="flex-1 space-y-8">
+              <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-primary font-primary border-b-2 border-secondary inline-block mb-4">
+                Academic Pathways
+              </h2>
+
+              <p className="text-black font-secondary text-sm sm:text-base md:text-lg leading-relaxed mb-4">
+               For students who are ready for structured academics at the secondary level, Kamalam offers the National Institute of Open Schooling (NIOS) secondary curriculum. This pathway allows learners to progress confidently at their own pace while receiving the guidance they need.
+              </p>
+            </div>
+
+            
+          </div>
+        </div>
+
+        <APLValue6 />
 
         {/* Adult Program Section */}
         <div className="max-w-6xl mx-auto px-4 md:px-8 py-16">
