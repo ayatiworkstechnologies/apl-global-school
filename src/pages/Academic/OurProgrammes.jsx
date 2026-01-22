@@ -225,9 +225,11 @@ const curriculumData4 = [
     content: ["Games", "Expressions Clubs"],
   },
 ];
-const subSections = [
+const curriculumData6 = [
   {
     title: "Forms of Knowledge",
+    ages: "7–18 years",
+   
     items: [
       "Literacy & Numeracy",
       "Environmental Studies (EVS)",
@@ -923,85 +925,73 @@ function OurProgrammes() {
           </div>
         </div>
 
-         {/* INNER ACCORDION */}
-      <section
-        style={{ backgroundImage: `url(${AboutGraph})` }}
-        className="bg-cover bg-center"
+         <div className="max-w-6xl mx-auto px-4 sm:px-6 md:px-10 space-y-6 mb-10">
+  {curriculumData6.map((section, index) => (
+    <div
+      key={index}
+      className="border-b-2 border-secondary shadow-sm"
+    >
+      {/* Header */}
+      <button
+        onClick={() => toggleAccordion(index)}
+        className="w-full text-left px-4 py-2 transition font-primary text-third font-semibold text-base sm:text-lg flex justify-between items-center"
       >
-        <div className="max-w-6xl mx-auto px-4 py-10">
-          <div className="border-b-2 border-secondary shadow-sm">
-            <button
-              onClick={() => setOpenMain(!openMain)}
-              className="w-full px-4 py-3 flex justify-between items-center font-primary font-semibold text-primary text-xl text-tertiary"
-            >
-              Learning at Kamalam
-              {openMain ? <FiChevronUp /> : <FiChevronDown />}
-            </button>
+        {section.title}
+        {openIndex === index ? (
+          <ChevronUp className="w-5 h-5 text-primary transition duration-200" />
+        ) : (
+          <ChevronDown className="w-5 h-5 text-primary transition duration-200" />
+        )}
+      </button>
 
-            {openMain && (
-              <div className="px-4 pb-6 space-y-5">
-                <p className="font-secondary text-primary">
-                  <strong>Ages:</strong>{" "}
-                  <span className="text-secondary">7–18 years</span>
-                </p>
+      {/* Content */}
+      {openIndex === index && (
+        <div className="px-4 pb-4 space-y-4 text-sm sm:text-base">
+          {section.ages && (
+            <p className="text-primary font-secondary">
+              <strong>Ages:</strong>{" "}
+              <span className="text-secondary">{section.ages}</span>
+            </p>
+          )}
 
-                <p className="font-secondary text-primary">
-                  <strong>Learning Groups:</strong>{" "}
-                  <span className="text-secondary">
-                    Skill-based small groups
+          {section.grades && (
+            <p className="text-primary font-secondary">
+              <strong>Grades:</strong>{" "}
+              <span className="text-secondary">{section.grades}</span>
+            </p>
+          )}
+
+          {/* ✅ FIX: items instead of content */}
+          <ol className="space-y-1 list-none pl-1">
+            {section.items.map((item, i) => {
+              const isOdd = (i + 1) % 2 !== 0;
+              const iconColor = isOdd ? "text-primary" : "text-secondary";
+
+              return (
+                <li key={i} className="flex items-start gap-2">
+                  <MdDoubleArrow
+                    className={`w-4 h-4 mt-1 ${iconColor}`}
+                  />
+                  <span className="font-secondary text-primary">
+                    {item}
                   </span>
-                </p>
+                </li>
+              );
+            })}
+          </ol>
 
-                <p className="font-secondary text-primary">
-                  Children progress at their own pace, supported through
-                  structured routines and hands-on learning.
-                </p>
-
-                {subSections.map((section, index) => (
-                  <div
-                    key={index}
-                    className="border border-gray-200 rounded-xl"
-                  >
-                    <button
-                      onClick={() =>
-                        setOpenSub(openSub === index ? null : index)
-                      }
-                      className="w-full px-4 py-3 flex justify-between items-center font-primary font-semibold text-primary"
-                    >
-                      {section.title}
-                      {openSub === index ? (
-                        <FiChevronUp />
-                      ) : (
-                        <FiChevronDown />
-                      )}
-                    </button>
-
-                    {openSub === index && (
-                      <div className="px-4 pb-4 space-y-2">
-                        {section.items.map((item, i) => (
-                          <div
-                            key={i}
-                            className="flex items-center gap-2 font-secondary text-primary"
-                          >
-                            <MdDoubleArrow className="text-secondary" />
-                            {item}
-                          </div>
-                        ))}
-
-                        {section.footer && (
-                          <p className="pt-3 text-sm font-secondary text-gray-600">
-                            {section.footer}
-                          </p>
-                        )}
-                      </div>
-                    )}
-                  </div>
-                ))}
-              </div>
-            )}
-          </div>
+          {/* ✅ Footer Support */}
+          {section.footer && (
+            <p className="pt-2 text-secondary font-secondary italic">
+              {section.footer}
+            </p>
+          )}
         </div>
-      </section>
+      )}
+    </div>
+  ))}
+</div>
+
 
           <div className="max-w-6xl mx-auto px-4 md:px-8 py-16">
           <div className="flex flex-col md:flex-row gap-10 items-start">
