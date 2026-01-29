@@ -126,7 +126,7 @@ function APLPODCAST() {
     <>
 
       {/* Podcast Section */}
-      <section
+      {/* <section
         className="bg-white py-12 px-6 md:px-16 font-sans relative bg-cover bg-no-repeat bg-center"
         style={{ backgroundImage: `url(${AboutGraph})` }}
       >
@@ -135,7 +135,7 @@ function APLPODCAST() {
         </h2>
 
         <div className="mt-6 grid md:grid-cols-2 gap-10 items-start relative">
-          {/* LEFT - Audio Playlist */}
+        
           <div>
             <p className="text-sm font-secondary text-gray-700 mb-6">
               On learning about the exceptional pedagogy and holistic approach
@@ -164,7 +164,6 @@ function APLPODCAST() {
                       {track.title}
                     </div>
 
-                    {/* Audio tag (hidden) */}
                     <audio
                       ref={(el) => (audioRefs.current[i] = el)}
                       src={track.url}
@@ -174,13 +173,13 @@ function APLPODCAST() {
                       onEnded={() => setPlayingIndex(null)}
                     />
 
-                    {/* Time Display */}
+              
                     <div className="flex justify-between items-center text-xs text-gray-500">
                       <span>{formatTime(currentTimes[i] || 0)}</span>
                       <span>{formatTime(durations[i] || 0)}</span>
                     </div>
 
-                    {/* Progress Bar */}
+                  
                     <div className="h-2 bg-gray-200 rounded mt-1 relative overflow-hidden">
                       <div
                         className="h-2 bg-secondary rounded"
@@ -199,7 +198,7 @@ function APLPODCAST() {
             </div>
           </div>
 
-          {/* RIGHT - Logos */}
+       
           <div className="relative">
             <div className="p-4 relative z-10">
               <img src={niosLogo} alt="NIOS" className="w-full mb-4" />
@@ -207,7 +206,7 @@ function APLPODCAST() {
             <div className="absolute top-0 right-0 w-full h-full bg-primary rounded-md -z-10 blur-xl opacity-20 scale-110"></div>
           </div>
         </div>
-      </section>
+      </section> */}
       <section
         className="px-6 md:px-16 py-12 font-sans"
         style={{ backgroundImage: `url(${paper})`, backgroundSize: "cover" }}
