@@ -4,8 +4,8 @@ import { motion, AnimatePresence } from "framer-motion";
 import SynergySection from "./SynergySection";
 import APLVAlue2 from "../others/AplValue2";
 
-import banner1 from "/banners/apl-campus.jpg";
-import mobile1 from "/banners/Our-Campus-mob.webp";
+import banner1 from "/assets/campus-web.png";
+import mobile1 from "/assets/campus-mob.png";
 import StaticBanner from "../../components/StaticBanner";
 import AplEventsShowcase from "../Home/AplEventsShowcase";
 import CertificatesCarousel from "../Home/CertificatesCarousel";
@@ -27,7 +27,7 @@ const customCards = [
   {
     date: "July 2025",
     title: "APL SnapShot",
-    href: "/assets/pdf/SnapShot.pdf",
+    href: "/assets/pdf/SnapShot-1.pdf",
      target: "_blank",
   },
 ];
@@ -88,7 +88,7 @@ function OurCampus() {
             className="sticky top-24 self-start"
           >
             <img
-              src="/assets/apl/Our-Campus.png"
+              src="/assets/campus-section.png"
               alt="APL Campus"
               className="w-full max-w-[350px] mx-auto shadow"
             />

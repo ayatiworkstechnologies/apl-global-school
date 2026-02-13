@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-import banner1 from "/banners/apl-faculty.jpg";
-import mobile1 from "/banners/Our-Faculty-mob.webp";
+import banner1 from "/assets/faculty-web.png";
+import mobile1 from "/assets/faculty-mob.png";
 import StaticBanner from "../../components/StaticBanner";
 import APLVAlue7 from "../others/AplValue7";
 

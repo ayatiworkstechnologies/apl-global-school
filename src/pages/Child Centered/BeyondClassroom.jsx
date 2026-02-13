@@ -2,7 +2,7 @@ import React, { useState, useCallback } from "react";
 import { ChevronDown } from "lucide-react";
 
 import AboutGraph from "/assets/about-graph.svg";
-import Beyond_Class from "/assets/apl/Beyond_Class.webp";
+import Beyond_Class from "/assets/section-classroom.png";
 
 import APLVAlue3 from "../others/AplValue3";
 import StaticBanner from "../../components/StaticBanner";
@@ -15,8 +15,8 @@ import {
   ChevronsRight,
 } from "lucide-react";
 
-import banner1 from "/banners/apl-beyond.jpg";
-import mobile1 from "/banners/beyond-classroom-mob.webp";
+import banner1 from "/assets/beyond-classroom-web.png";
+import mobile1 from "/assets/beyond-classroom-mob.png";
 
 const slides = [{ desktop: banner1, mobile: mobile1 }];
 
@@ -385,7 +385,7 @@ function BeyondClassRoom() {
           {
             date: "July 2025",
             title: "APL SnapShot",
-            href: "/assets/pdf/SnapShot.pdf",
+            href: "/assets/pdf/SnapShot-1.pdf",
             target: "_blank",
           },
         ]}

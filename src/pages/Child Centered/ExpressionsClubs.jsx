@@ -5,8 +5,8 @@ import { MdDoubleArrow } from "react-icons/md";
 // Assets
 import AboutGraph from "/assets/about-graph.svg";
 import Department from "/assets/apl/Department.webp";
-import banner1 from "/banners/apl-expresstions.jpg";
-import mobile1 from "/banners/expresstions-mob.webp";
+import banner1 from "/assets/club-web.png";
+import mobile1 from "/assets/club-web.png";
 
 // Components
 import StaticBanner from "../../components/StaticBanner";
@@ -90,7 +90,7 @@ const customCards = [
   {
     date: "July 2025",
     title: "APL SnapShot",
-    href: "/assets/pdf/SnapShot.pdf",
+    href: "/assets/pdf/SnapShot-1.pdf",
      target: "_blank",
   },
 ];

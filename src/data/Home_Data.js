@@ -1,8 +1,8 @@
-import tab1 from "/assets/tab-1.png";
-import tab2 from "/assets/tab-2.png";
+import tab1 from "/assets/farm.png";
+import tab2 from "/assets/art.png";
 
-import tab3 from "/assets/tab-3.png";
-import tab4 from "/assets/tab-4.png";
+import tab3 from "/assets/food.png";
+import tab4 from "/assets/club.png";
 
 import tab5 from "/assets/tab-5.png";
 import tab6 from "/assets/tab-6.png";

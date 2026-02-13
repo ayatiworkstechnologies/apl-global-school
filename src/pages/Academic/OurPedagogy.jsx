@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import AboutGraph from "/assets/about-graph.svg";
-import PerfomenceReporting from "/assets/apl/Perfomence-Reporting.png";
+import PerfomenceReporting from "/assets/my-school-pedagogy.png";
 import TeachingPattern from "/assets/teaching.png";
 import Assesmentpattern from "/assets/forms.png";
-import PersonalLearning from "/assets/apl/Personal-Learning.png";
+import PersonalLearning from "/assets/support-system.png";
 import SynergySection from "../About/SynergySection";
 import APLVAlue3 from "../others/AplValue3";
 import APLVAlue4 from "../others/AplValue4";
@@ -31,7 +31,7 @@ const customCards = [
   {
     date: "July 2025",
     title: "APL SnapShot",
-    href: "/assets/pdf/SnapShot.pdf",
+    href: "/assets/pdf/SnapShot-1.pdf",
      target: "_blank",
   },
 ];

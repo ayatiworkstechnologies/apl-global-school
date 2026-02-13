@@ -36,7 +36,7 @@ const customCards = [
   {
     date: "July 2025",
     title: "APL SnapShot",
-    href: "/assets/pdf/SnapShot.pdf",
+    href: "/assets/pdf/SnapShot-1.pdf",
      target: "_blank",
   },
 ];
@@ -319,7 +319,7 @@ function OurProgrammes() {
               className="sticky top-24 self-start w-full max-w-sm"
             >
               <img
-                src="/assets/apl/kindergarden.png"
+                src="/assets/kindergarden.png"
                 alt="APL Kindergarten"
                 className="w-full mx-auto "
               />
@@ -398,7 +398,7 @@ function OurProgrammes() {
               className="sticky top-24 self-start w-full max-w-sm"
             >
               <img
-                src="/assets/apl/primary.png"
+                src="/assets/cambridge-primary.png"
                 alt="APL Kindergarten"
                 className="w-full mx-auto "
               />
@@ -518,7 +518,7 @@ function OurProgrammes() {
               className="sticky top-24 self-start w-full max-w-sm"
             >
               <img
-                src="/assets/apl/lower.png"
+                src="/assets/cambridge-lower-secondary.png"
                 alt="APL Kindergarten"
                 className="w-full mx-auto "
               />
@@ -625,8 +625,8 @@ function OurProgrammes() {
               className="sticky top-24 self-start w-full max-w-sm"
             >
               <img
-                src="/assets/apl/upper.png"
-                alt="APL Kindergarten"
+                src="/assets/cambridge-upper-secondary-advanced.png"
+                alt="APL Upper Secondary"
                 className="w-full mx-auto "
               />
             </motion.div>
@@ -917,8 +917,8 @@ function OurProgrammes() {
               className="sticky top-24 self-start w-full max-w-sm"
             >
               <img
-                src="/assets/apl/kamalam-program.png"
-                alt="APL Kindergarten"
+                src="/assets/kamalam.png"
+                alt="APL Kamalam"
                 className="w-full mx-auto "
               />
             </motion.div>

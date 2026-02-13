@@ -11,8 +11,8 @@ import AplEventsShowcase from "../Home/AplEventsShowcase";
 import CertificatesCarousel from "../Home/CertificatesCarousel";
 import APLVAlue5 from "../others/AplValue5";
 
-import banner1 from "/banners/apl-curriculam.jpg";
-import mobile1 from "/banners/Co-curricular-mob.webp";
+import banner1 from "/assets/academic_web.webp";
+import mobile1 from "/assets/academic-mob.png";
 
 const slides = [{ desktop: banner1, mobile: mobile1 }];
 
