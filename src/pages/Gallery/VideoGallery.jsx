@@ -3,6 +3,12 @@ import { AnimatePresence, motion } from "framer-motion";
 import paper from "/assets/grid-1.webp";
 
 const videos = [
+   {
+    title:
+      "Dushyanth Gunashekar, co-founder Crea Play",
+      description:"On 9th February 2026, we had the pleasure of hosting educators from Australian schools who were visiting India to learn more about inclusive practices within diverse school communities. Their visit offered a meaningful opportunity to showcase our approach to education and our deep commitment to inclusion.The day began with engaging discussions around our vision, core values, and academic programmes — each reflecting our belief in holistic development and personalised learning. These conversations laid the foundation for a rich exchange of ideas and perspectives.",
+     src: "https://www.youtube.com/embed/HFOhxE0B_F4",
+  },
   {
     title:
       "Dushyanth Gunashekar, co-founder Crea Play",

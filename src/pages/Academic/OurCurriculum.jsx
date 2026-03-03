@@ -16,6 +16,38 @@ import mobile1 from "/assets/academic-mob.png";
 
 const slides = [{ desktop: banner1, mobile: mobile1 }];
 
+const faqs = [
+  {
+    question: "How does the Cambridge pathway help students to navigate an increasingly uncertain and rapidly evolving world?",
+    answer: <>
+    At APL, we believe education must evolve with the times. Our pedagogy is thoughtfully aligned with the needs of today’s learners—encouraging curiosity, critical thinking, and adaptability. The Cambridge pathway provides students with global exposure, academic discipline, and the flexibility to keep future options open. Whether they aspire to pursue competitive fields such as engineering, medicine, or research, or wish to explore emerging and interdisciplinary domains in India or abroad, the curriculum equips them with both depth and breadth of learning. 
+    Top Universities worldwide recognise Cambridge students. These universities note that Cambridge students demonstrate academic maturity, independence of thought, and readiness for higher education — qualities that support a smooth and successful transition beyond school.
+    </>
+  },
+  {
+    question: "Can APL students write the competitive exams conducted in India?",
+    answer:
+      "Yes. Students from APL Global School can and do appear for competitive examinations even if they are driven on a national curriculum model such as JEE, NEET, CUET and CLAT. The curriculum builds strong subject knowledge, conceptual clarity and critical thinking skills, which support preparation for these examinations.",
+  },
+  {
+    question: "Is the school only for students who plan to study abroad?",
+    answer:
+      "No. While the curriculum provides an excellent foundation for international education, it is also designed to equally support a wide range of Indian academic courses. Many students choose to pursue higher education in India and successfully gain admission into Indian universities and professional programmes.  ",
+  },
+  {
+    question:"Will the students who are planning to pursue higher education in Indian Universities be able to cope up with it?",
+    answer:<>
+    The Cambridge (IGCSE and A Levels) programme is recognised by the University Grants Commission (UGS) as equivalent to Indian senior secondary boards, enabling students to apply to universities across India. The NIOS (National Institute of Open Schooling) pathway is a national-level board that is widely accepted by Indian universities for undergraduate and postgraduate admissions.
+    APL students will be well prepared for higher education in India. The curriculum emphasises critical thinking, independent learning and academic depth, which are essential for university success. With its focus on application-based learning rather than rote memorisation, the curriculum equips students to perform well in analytical and problem-solving components for all kinds of Indian entrance examinations as well as in undergraduate programmes.
+    </>
+  },
+  {
+    question:"Will my child be able to adjust from the ICSE/ CBSE stream with the Cambridge curriculum?",
+    answer:"Yes.  Although ICSE and CBSE differ in syllabus structure and assessment style, students who have conceptual understanding and are self driven can adapt with confidence and are able to transition successfully with appropriate academic guidance. Students at APL develop independent learning and critical thinking skills which provides the foundation for a strong conceptual understanding. This further helps them with analytical thinking and disciplined study habits.",
+
+  },
+];
+
 /* --- Safely resolve SVG to a URL string --- */
 const AboutGraph =
   typeof AboutGraphRaw === "string"
@@ -194,6 +226,12 @@ function OurCurriculum() {
   const [openCambridgeIndex, setOpenCambridgeIndex] = useState(null);
   const [openNiosIndex, setOpenNiosIndex] = useState(null);
 
+    const [activeIndex, setActiveIndex] = useState(null);
+
+  const toggleAccordion = (index) => {
+    setActiveIndex(activeIndex === index ? null : index);
+  };
+
   return (
     <>
       {/* Banner Section */}
@@ -252,6 +290,47 @@ function OurCurriculum() {
             </div>
           </div>
         </div>
+
+        <section className="max-w-4xl mx-auto px-4 py-12">
+      <h2 className="text-3xl font-bold text-center mb-8 font-primary text-primary border-b-2 border-secondary text-center">
+        Frequently Asked Questions
+      </h2>
+
+      <div className="space-y-4">
+        {faqs.map((faq, index) => (
+          <div
+            key={index}
+            className="border rounded-xl shadow-sm overflow-hidden"
+          >
+            <button
+              onClick={() => toggleAccordion(index)}
+              className="w-full text-left px-6 py-4 flex justify-between items-center font-medium text-lg font-secondary"
+            >
+              {faq.question}
+              <span
+                className={`transition-transform duration-300 text-secondary ${
+                  activeIndex === index ? "rotate-180" : ""
+                }`}
+              >
+                ▼
+              </span>
+            </button>
+
+            <div
+              className={`transition-all duration-300 ease-in-out overflow-hidden ${
+                activeIndex === index
+                  ? "max-h-screen opacity-100"
+                  : "max-h-0 opacity-0"
+              }`}
+            >
+              <div className="px-6 py-4">
+                <p className="text-gray-600 font-secondary">{faq.answer}</p>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
 
         {/* Cambridge cards */}
         <section
