@@ -54,7 +54,7 @@ const isYouTubeLink = (url) =>
 
 const awards = [
      {
-    title: "Swiss Certification Council - My Safe Spaces",
+    title: "Swiss Certification Council - <br/> My Safe Spaces",
     year: "2026",
     description:
     "We’re proud to welcome Gita Jagannathan, a renowned cultural psychologist and long-standing advocate for inclusive education, to the SWISS Certification Council at My Safe Spaces. With decades of experience working at the intersection of culture, learning, and student development, she has been instrumental in shaping inclusive learning environments that recognise every child’s emotional and social needs - not just academic outcomes. Her expertise will further strengthen SWISS (Student Wellness & Institutional Safety Standards) - our comprehensive certification framework designed to help institutions build safer systems, train staff to respond with empathy, and embed wellbeing into everyday school culture. Together, we continue our mission to raise the standard of safety and inclusion across institutions.",
@@ -256,9 +256,10 @@ export default function AplAwardsPage() {
             </div>
 
             <div className="p-6 flex flex-col flex-grow">
-              <h3 className="text-lg font-primary font-semibold text-secondary">
-                {award.title}
-              </h3>
+              <h3
+                className="text-lg font-primary font-semibold text-secondary"
+                dangerouslySetInnerHTML={{ __html: award.title }}
+              ></h3>
 
               <p className="text-sm text-primary font-medium mt-1">{award.year}</p>
 
