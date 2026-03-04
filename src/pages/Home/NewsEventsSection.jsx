@@ -16,6 +16,14 @@ const data = {
   Affiliations: [],
 
   News: [
+     {
+      title: "Swiss Certification Council",
+      date: "",
+      image: "/assets/gita.jpeg",
+      description:
+        "We’re proud to welcome Gita Jagannathan, a renowned cultural psychologist and long-standing advocate for inclusive education, to the SWISS Certification Council at My Safe Spaces. With decades of experience working at the intersection of culture, learning, and student development, she has been instrumental in shaping inclusive learning environments that recognise every child’s emotional and social needs - not just academic outcomes. Her expertise will further strengthen SWISS (Student Wellness & Institutional Safety Standards) - our comprehensive certification framework designed to help institutions build safer systems, train staff to respond with empathy, and embed wellbeing into everyday school culture. Together, we continue our mission to raise the standard of safety and inclusion across institutions.",
+      link: "/apl-awards",
+    },
     {
       title: "School awards",
       date: "",
