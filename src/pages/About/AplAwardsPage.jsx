@@ -21,6 +21,7 @@ import award10 from "/assets/award-10.png";
 import award11 from "/assets/ika.png";
 import award12 from "/assets/award-12.png";
 import award13 from "/assets/outstanding.png";
+import award14 from "/assets/gita.jpeg";
 
 // Sections
 import APLVAlue3 from "../others/AplValue3";
@@ -52,7 +53,17 @@ const isYouTubeLink = (url) =>
 
 
 const awards = [
+     {
+    title: "Swiss Certification Council - My Safe Spaces",
+    year: "2026",
+    description:
+    "We’re proud to welcome Gita Jagannathan, a renowned cultural psychologist and long-standing advocate for inclusive education, to the SWISS Certification Council at My Safe Spaces. With decades of experience working at the intersection of culture, learning, and student development, she has been instrumental in shaping inclusive learning environments that recognise every child’s emotional and social needs - not just academic outcomes. Her expertise will further strengthen SWISS (Student Wellness & Institutional Safety Standards) - our comprehensive certification framework designed to help institutions build safer systems, train staff to respond with empathy, and embed wellbeing into everyday school culture. Together, we continue our mission to raise the standard of safety and inclusion across institutions.",
 
+  
+      
+    image: award14,
+    link: "#",
+    },
 
     {
     title: "Creative & Distinguished Educators Conclave ",
@@ -61,7 +72,7 @@ const awards = [
       "The Creative & Distinguished Educators Conclave (CDEC) 2025 held in October this year in Chennai focused on generating new insights into education, fostering meaningful conversations, and recognising efforts related to Universal Design for Learning (UDL): Reaching Every Child. The panel discussions focused on strategies to transform classrooms into innovative clubs, how forward-thinking schools are turning AI disruption into opportunities and shared inspiring journeys from educators who chose to lead.Among other awardees, APl Global School was recognised and awarded as an Inclusion Education Institution.",
     image: cdec,
     link: "#",
-  },
+    },
     {
     title: "ETEducation EDNXT Chennai",
     year: "2025",
