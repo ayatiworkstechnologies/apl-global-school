@@ -14,7 +14,6 @@ import mobileBanner5 from "/banners/home-banner-mob-5.webp";
 import SocialIcon from "./SocialIcons";
 import EnquiryForm from "./EnquiryForm";
 
-// Array of image objects
 const images = [
   { url: bannerImg1, mobile: mobileBanner1 },
   { url: bannerImg2, mobile: mobileBanner2 },
@@ -46,8 +45,44 @@ const BannerSection = () => {
 
   return (
     <>
-      {/* Banner Slider */}
       <div className="relative w-full h-[600px] md:h-[400px] overflow-hidden">
+        {/* DESKTOP BUTTONS */}
+        <div className="absolute left-6 top-[65%] z-20 hidden md:flex flex-row gap-4">
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSebCax5tzajflI60EpD-DBgTty1N-Wqg1z7dOGMDTabTimYrQ/viewform?usp=send_form"
+            className="bg-primary text-white px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-primary/90 transition"
+          >
+            APL Student Hub
+          </a>
+
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeiWdZHJe8DO9FY3ScFr3-EHqmuwmCkL33-fYTbD7Pp9HaXxQ/viewform?usp=send_form"
+            className="bg-white text-primary px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-gray-100 transition"
+          >
+            APL Parent Forum
+          </a>
+        </div>
+
+        {/* MOBILE BUTTONS */}
+        <div className="absolute bottom-14 left-0 right-0 z-20 flex justify-center px-4 md:hidden">
+          <div className="flex w-full max-w-[340px] gap-3">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSebCax5tzajflI60EpD-DBgTty1N-Wqg1z7dOGMDTabTimYrQ/viewform?usp=send_form"
+              className="flex-1 text-center bg-primary text-white text-sm px-4 py-3 rounded-full font-semibold shadow"
+            >
+             Apl Student Hub
+            </a>
+
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeiWdZHJe8DO9FY3ScFr3-EHqmuwmCkL33-fYTbD7Pp9HaXxQ/viewform?usp=send_form"
+              className="flex-1 text-center bg-white text-primary text-sm px-4 py-3 rounded-full font-semibold shadow"
+            >
+             Apl Parent Forum
+            </a>
+          </div>
+        </div>
+
+        {/* SLIDER */}
         <div
           ref={slideRef}
           className="flex transition-transform duration-700 ease-in-out"
@@ -63,6 +98,7 @@ const BannerSection = () => {
                 loading="lazy"
                 decoding="async"
               />
+
               {/* Mobile Image */}
               <img
                 src={img.mobile}
@@ -75,8 +111,8 @@ const BannerSection = () => {
           ))}
         </div>
 
-        {/* Slide Indicators */}
-        <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex gap-2 z-10">
+        {/* SLIDER DOTS */}
+        <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 z-10">
           {images.map((_, index) => (
             <button
               key={index}
@@ -91,7 +127,7 @@ const BannerSection = () => {
           ))}
         </div>
 
-        {/* Desktop Enquiry Form */}
+        {/* DESKTOP ENQUIRY FORM */}
         {!isMobile && (
           <div className="absolute top-4 right-10 z-10 max-w-md bg-opacity-90">
             <div>
@@ -104,7 +140,7 @@ const BannerSection = () => {
         )}
       </div>
 
-      {/* Mobile Enquiry Form */}
+      {/* MOBILE ENQUIRY FORM */}
       {isMobile && (
         <div className="md:hidden px-4 py-6">
           <div className="p-4">
