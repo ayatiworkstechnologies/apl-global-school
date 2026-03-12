@@ -6,8 +6,8 @@ const videos = [
    {
     title:
       "Dushyanth Gunashekar, co-founder Crea Play",
-      description:"On 9th February 2026, we had the pleasure of hosting educators from Australian schools who were visiting India to learn more about inclusive practices within diverse school communities. Their visit offered a meaningful opportunity to showcase our approach to education and our deep commitment to inclusion.The day began with engaging discussions around our vision, core values, and academic programmes — each reflecting our belief in holistic development and personalised learning. These conversations laid the foundation for a rich exchange of ideas and perspectives.",
-     src: "https://www.youtube.com/embed/HFOhxE0B_F4",
+      description:"On 9th February 2026, we had the pleasure of hosting educators from Australian schools who were visiting India to learn more about inclusive practices within diverse school communities. Their visit offered a meaningful opportunity to showcase our approach to education and our deep commitment to inclusion.The day began with engaging discussions around our vision, core values, and academic programmes — each reflecting our belief in holistic development and personalised learning. These conversations laid the foundation for a rich exchange of ideas and perspectives. During their time on campus, the visiting educators observed different school levels to gain first-hand insight into our day-to-day functioning. They also visited the Meraki Room where the students were preparing for the Meraki Fair. They appreciated the remarkable range of student-led art, music, and photography projects on display, celebrating creativity and expression across grades. The visit fostered valuable professional dialogue, enabling us to exchange best practices in supporting and nurturing students, and also on cultural awareness. It reinforced our shared commitment to inclusive education and the possibilities for exchange programmes through global collaboration.",
+     src: "https://www.youtube.com/embed/JJX8FZrAENw?si=iL8vIIsJxJwXjfuR",
   },
   {
     title:

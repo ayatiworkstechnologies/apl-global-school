@@ -242,7 +242,7 @@ function BeyondClassRoom() {
             <p>
               Copy of the latest APL SnapShot:&nbsp;
               <a
-                href="https://www.aplglobalschool.com/wp-content/uploads/2024/11/SnapShot-Issue-33.pdf"
+                href="/assets/pdf/SnapShot-1.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-secondary font-primary border border-primary p-3 rounded-full bg-primary hover:text-primary hover:bg-secondary hover:border-none break-words"
@@ -264,19 +264,26 @@ function BeyondClassRoom() {
               >
                 <ul className="list-none space-y-1">
                   {[
-                    "October 2024",
-                    "August 2023",
-                    "November 2022",
-                    "June 2022",
-                    "January 2022",
-                    "June 2021",
-                    "February 2021",
-                    "November 2020",
-                    "February 2020",
-                  ].map((label) => (
-                    <li key={label} className="flex items-center gap-2">
-                      <ChevronsRight className="h-5 w-5 text-primary" />
-                      <span>{label}</span>
+                    { label: "October 2024", pdf: "#" },
+                    { label: "August 2023", pdf: "#" },
+                    { label: "November 2022", pdf: "/assets/pdf/nov-2022.pdf" },
+                    { label: "June 2022", pdf: "/assets/pdf/june-2022.pdf" },
+                    { label: "January 2022", pdf: "/assets/pdf/jan-2022.pdf" },
+                    { label: "June 2021", pdf: "#" },
+                    { label: "February 2021", pdf: "/assets/pdf/feb-2021.pdf" },
+                    { label: "November 2020", pdf: "/assets/pdf/nov-2020.pdf" },
+                    { label: "February 2020", pdf: "/assets/pdf/feb-2020.pdf" },
+                  ].map((item) => (
+                    <li key={item.label}>
+                      <a
+                        href={item.pdf}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 hover:text-primary transition-colors"
+                      >
+                        <ChevronsRight className="h-5 w-5 text-primary" />
+                        <span>{item.label}</span>
+                      </a>
                     </li>
                   ))}
                 </ul>
@@ -289,51 +296,65 @@ function BeyondClassRoom() {
               >
                 <ul className="list-none space-y-1">
                   {[
-                    "October 2019",
-                    "January 2019",
-                    "August 2018",
-                    "April 2018",
-                    "December 2017",
-                    "July 2017",
-                    "January 2017",
-                    "October 2016",
-                    "July 2016",
-                    "April 2016",
-                    "January 2016",
-                    "October 2015",
-                    "July 2015",
-                    "May 2015",
-                    "Dec 2014",
-                    "September 2014",
-                    "July 2014",
-                    "Jan 2014",
-                  ].map((label) => (
-                    <li key={label} className="flex items-center gap-2">
-                      <ChevronsRight className="h-5 w-5 text-secondary" />
-                      <span>{label}</span>
+                    { label: "October 2019", pdf: "/assets/pdf/oct-2019.pdf" },
+                    { label: "January 2019", pdf: "/assets/pdf/jan-2019.pdf" },
+                    { label: "August 2018", pdf: "/assets/pdf/aug-2018.pdf" },
+                    { label: "April 2018", pdf: "/assets/pdf/april-2018.pdf" },
+                    { label: "December 2017", pdf: "/assets/pdf/dec-2017.pdf" },
+                    { label: "July 2017", pdf: "/assets/pdf/july-2017.pdf" },
+                    { label: "January 2017", pdf: "/assets/pdf/jan-2017.pdf" },
+                    { label: "October 2016", pdf: "/assets/pdf/oct-2016.pdf" },
+                    { label: "July 2016", pdf: "/assets/pdf/july-2016.pdf" },
+                    { label: "April 2016", pdf: "/assets/pdf/april-2016.pdf" },
+                    { label: "January 2016", pdf: "/assets/pdf/jan-2016.pdf" },
+                    { label: "October 2015", pdf: "/assets/pdf/oct-2015.pdf" },
+                    { label: "July 2015", pdf: "/assets/pdf/july-2015.pdf" },
+                    { label: "May 2015", pdf: "#" },
+                    { label: "Dec 2014", pdf: "/assets/pdf/dec-2014.pdf" },
+                    { label: "September 2014", pdf: "/assets/pdf/sep-2014.pdf" },
+                    { label: "July 2014", pdf: "/assets/pdf/july-2014.pdf" },
+                    { label: "Jan 2014", pdf: "/assets/pdf/jan-2014.pdf" },
+                  ].map((item) => (
+                    <li key={item.label}>
+                      <a
+                        href={item.pdf}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 hover:text-secondary transition-colors"
+                      >
+                        <ChevronsRight className="h-5 w-5 text-secondary" />
+                        <span>{item.label}</span>
+                      </a>
                     </li>
                   ))}
                 </ul>
               </AccordionItem>
 
               <AccordionItem
-                title="2015 - 2012"
+                title="2013 - 2012"
                 isOpen={innerOpen === 2}
                 onToggle={() => toggleInnerAccordion(2)}
               >
                 <ul className="list-none space-y-1">
                   {[
-                    "September 2013",
-                    "April 2013",
-                    "February 2013",
-                    "November 2012",
-                    "August 2012",
-                    "April 2012",
-                    "January 2012",
-                  ].map((label) => (
-                    <li key={label} className="flex items-center gap-2">
-                      <ChevronsRight className="h-5 w-5 text-primary" />
-                      <span>{label}</span>
+                    { label: "September 2013", pdf: "/assets/pdf/sep-2013.pdf" },
+                    { label: "April 2013", pdf: "/assets/pdf/april-2013.pdf" },
+                    { label: "February 2013", pdf: "/assets/pdf/feb-2013.pdf" },
+                    { label: "November 2012", pdf: "/assets/pdf/nov-2012.pdf" },
+                    { label: "August 2012", pdf: "/assets/pdf/aug-2012.pdf" },
+                    { label: "April 2012", pdf: "/assets/pdf/april-2012.pdf" },
+                    { label: "January 2012", pdf: "/assets/pdf/jan-2012.pdf" },
+                  ].map((item) => (
+                    <li key={item.label}>
+                      <a
+                        href={item.pdf}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 hover:text-primary transition-colors"
+                      >
+                        <ChevronsRight className="h-5 w-5 text-primary" />
+                        <span>{item.label}</span>
+                      </a>
                     </li>
                   ))}
                 </ul>
