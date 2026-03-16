@@ -48,6 +48,91 @@ const faqs = [
   },
 ];
 
+const faqsdata = [
+  {
+    question: "Is NIOS recognised as equivalent to other boards, and will it be accepted by Indian universities?",
+    answer: <>
+    NIOS (National Institute of Open Schooling) is a national-level board established by the Government of India under the Ministry of Education. Its Secondary (Class 10) and Senior Secondary (Class 12) qualifications are recognised as equivalent to CBSE and ICSE by the University Grants Commission (UGC) and most regulatory bodies in India.
+    Students holding a NIOS certificate are eligible to apply to a wide range of undergraduate programmes across Indian universities, including courses in Engineering, Medicine, Law, Commerce, Design, and the Liberal Arts. As with any board, it is advisable to check the specific admission requirements of target institutions in advance, and APL's Academic Counselling team is available to guide families through this process.
+    </>
+  },
+  {
+    question: "How many subjects can a NIOS student take at APL, and how does the school support subject selection and preparation?",
+    answer:<>
+     At the Senior Secondary level (Class 12), NIOS requires a minimum of five subjects for certification — including at least one language. Students may take up to two additional subjects, making a maximum of seven in total. A similar minimum of five subjects applies at the Secondary level (Class 10).
+     At APL, regular school hours are structured to provide full academic support for five subjects. Students who wish to take up additional subjects may do so as self-study subjects, up to a maximum of two.
+     At APL, every student gets to work with an academic counsellor to design a subject profile aligned with their interests, career direction, and entrance examination eligibility. Parents are closely involved in this process, and subject choices are made with both personal meaning and strategic intent.
+
+    </>
+     
+  },
+  {
+    question: "What vocational subjects does NIOS offer at APL, why should a student consider them, and how does APL support vocational learners?",
+    answer:<>
+    At APL, the vocational subjects currently offered under NIOS include Catering Management, Preservation of Fruits and Vegetables, Physical Education and Yoga, and Data Entry Operations, among others. These are practical, skill-based courses designed to complement academic subjects and build real-world competencies.
+    Data Entry Operations is classified as an integrated academic and vocational subject, giving it weight across both categories — making it a versatile choice for students looking to build digital skills while meeting subject requirements.
+    Students can include a vocational subject within their subject combination, and academic counsellors at APL guide every student in assessing whether a vocational subject genuinely serves their goals and how best to position it within their overall profile.
+    </>
+      
+  },
+  {
+    question:"How does the NIOS pathway at APL differ from studying NIOS independently or through a regular open schooling centre?",
+    answer:<>
+    The Cambridge (IGCSE and A Levels) programme is recognised by the University At APL, NIOS students benefit from the same structured school environment, qualified faculty, mentoring, and enrichment opportunities as any other student in the institution. Unlike self-study models, APL provides a full school experience — timetabled classes, academic support, internal assessments, co-curricular activities, and personalised guidance.
+    Choosing NIOS at APL is not choosing an alternative to school — it is choosing a different pathway within a full and rigorous school environment.
+    </>
+  },
+  {
+    question:"How does the NIOS examination system work, including flexible scheduling and multiple attempts?",
+    answer:<>
+    NIOS conducts public examinations twice a year — in April/May and October/November. The On Demand Examination (ODE) system provides additional exam window periods between the two scheduled examination sessions, giving students greater flexibility in timing their assessments around their academic readiness and personal commitments.
+    Students can also carry forward passing grades in individual subjects, meaning they do not need to repeat subjects they have already cleared - significantly reducing exam-related pressure.
+    </>
+
+  },
+   {
+    question:"Is NIOS a suitable pathway for students who are pursuing competitive sports or other high-performance disciplines?",
+    answer:<>
+    Yes — NIOS is particularly well-suited for student-athletes and those pursuing excellence in sport or other demanding disciplines that demand significant time, travel, and energy outside the classroom.
+    Competing at state, national, or international level often means training camps, tournaments, and extended periods away from school. NIOS's flexible examination structure allows students to pace their academic journey around their sporting commitments without compromising educational quality. At APL, subject combinations are planned with each student's schedule in mind, ensuring that sporting ambition and academic progress go hand in hand.
+    </>
+
+  },
+   {
+    question:"Can NIOS students appear for competitive entrance exams like JEE, NEET, CUET, or CLAT?",
+    answer:<>
+    Yes. NIOS students are eligible to appear for major competitive entrance examinations including JEE, NEET, CUET, and CLAT, provided they meet the subject and eligibility requirements set by the respective examining bodies.
+    At APL, subject combinations are planned from the outset with entrance examination eligibility in mind, ensuring students are always on track for their target examinations.
+    </>
+
+  },
+   {
+    question:"Should parents be concerned about stigma or social perception around NIOS?",
+    answer:<>
+    This is a question many families carry but hesitate to ask. NIOS is a government-established, nationally recognised board with a strong and growing track record. Its perception has evolved significantly — it is increasingly chosen as a deliberate, informed decision, not a fallback.
+    While most Indian universities recognise and accept NIOS qualifications, admission policies can vary by institution. APL's academic counselling team works closely with families to identify the right target institutions and ensure that every student's academic profile is positioned as strongly as possible. For families transitioning from the Cambridge pathway, the shift to NIOS is one of structure and flexibility — not a step down in ambition or seriousness.
+    </>
+
+  },
+   {
+    question:"Where have former NIOS students from APL gone — in terms of higher education and career choices?",
+    answer:<>
+    NIOS graduates from APL have gone on to pursue undergraduate programmes across disciplines including Engineering, Medicine, Commerce, Design, Media, Psychology, and the Liberal Arts at reputed Indian universities and colleges.
+    Beyond traditional degree programmes, students have entered the workforce through vocational routes, pursued entrepreneurial ventures, and creative careers - paths that the flexibility of NIOS helped make possible. APL's NIOS students leave school with clarity of purpose and the skills to navigate whatever direction they choose.
+    </>
+
+  },
+    {
+    question:"Can NIOS students at APL participate in co-curricular activities, enrichment programmes, and the wider school community?",
+    answer:<>
+    Absolutely. At APL, all students — regardless of board or pathway — are full members of the school community, with equal access to sports, clubs, Student Council, inter-house and inter-school events, and community activities.
+    The NIOS pathway at APL offers access to exclusive enrichment programmes including Meraki — the Creative Expressions programme, Helen O'Grady — the Theatre programme, and the Vocational Club — an entrepreneurship-focused programme aimed at building real-world readiness.
+    At APL, holistic development is not a privilege of one pathway — it is a promise to every student in the school.
+    </>
+
+  },
+];
+
 /* --- Safely resolve SVG to a URL string --- */
 const AboutGraph =
   typeof AboutGraphRaw === "string"
@@ -292,13 +377,13 @@ function OurCurriculum() {
         </div>
 
         <section className="max-w-4xl mx-auto px-4 py-12">
-      <h2 className="text-3xl font-bold text-center mb-8 font-primary text-primary border-b-2 border-secondary text-center">
-        Frequently Asked Questions
-      </h2>
+          <h2 className="text-3xl font-bold text-center mb-8 font-primary         text-primary  border-b-2 border-secondary text-center">
+            Frequently Asked Questions
+          </h2>
 
-      <div className="space-y-4">
-        {faqs.map((faq, index) => (
-          <div
+          <div className="space-y-4">
+            {faqs.map((faq, index) => (
+            <div
             key={index}
             className="border rounded-xl shadow-sm overflow-hidden"
           >
@@ -330,7 +415,7 @@ function OurCurriculum() {
           </div>
         ))}
       </div>
-    </section>
+        </section>
 
         {/* Cambridge cards */}
         <section
@@ -434,10 +519,10 @@ function OurCurriculum() {
 
         {/* NIOS */}
        <div
-  className="py-12 px-4 sm:px-8 md:px-16 max-w-screen-xl mx-auto"
-  style={{ backgroundImage: `url(${AboutGraph})` }}
->
-  <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
+        className="py-12 px-4 sm:px-8 md:px-16 max-w-screen-xl mx-auto"
+        style={{ backgroundImage: `url(${AboutGraph})` }}
+        >
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
     {/* --- Left Text Section --- */}
     <div className="space-y-6">
       <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-primary font-primary border-b-2 border-secondary inline-block mb-4">
@@ -485,9 +570,48 @@ function OurCurriculum() {
         />
       </div>
     </div>
-  </div>
-</div>
+        </div>
+      </div>
+      <section className="max-w-4xl mx-auto px-4 py-12">
+          <h2 className="text-3xl font-bold text-center mb-8 font-primary         text-primary  border-b-2 border-secondary text-center">
+            Frequently Asked Questions
+          </h2>
 
+          <div className="space-y-4">
+            {faqsdata.map((faq, index) => (
+            <div
+            key={index}
+            className="border rounded-xl shadow-sm overflow-hidden"
+          >
+            <button
+              onClick={() => toggleAccordion(index)}
+              className="w-full text-left px-6 py-4 flex justify-between items-center font-medium text-lg font-secondary"
+            >
+              {faq.question}
+              <span
+                className={`transition-transform duration-300 text-secondary ${
+                  activeIndex === index ? "rotate-180" : ""
+                }`}
+              >
+                ▼
+              </span>
+            </button>
+
+            <div
+              className={`transition-all duration-300 ease-in-out overflow-hidden ${
+                activeIndex === index
+                  ? "max-h-screen opacity-100"
+                  : "max-h-0 opacity-0"
+              }`}
+            >
+              <div className="px-6 py-4">
+                <p className="text-gray-600 font-secondary">{faq.answer}</p>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+        </section>
 
         {/* NIOS cards */}
         <section
@@ -512,7 +636,7 @@ function OurCurriculum() {
               ))}
             </div>
           </div>
-
+           
           {/* NIOS Modal */}
           <AnimatePresence>
             {openNiosIndex !== null && (
