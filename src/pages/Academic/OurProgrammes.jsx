@@ -387,6 +387,14 @@ function OurProgrammes() {
                 milestones. unities to explore without losing focus on the
                 values, empathy, discipline and respect.
               </p>
+              <div className="pt-2">
+                <a
+                  href="/testimonials"
+                  className="inline-block px-6 py-2 rounded-full bg-primary text-white font-medium text-sm md:text-base hover:bg-secondary transition"
+                >
+                  Cambridge Curriculum
+                </a>
+              </div>
             </div>
 
             {/* ✅ Right: Sticky Image */}
@@ -1022,7 +1030,7 @@ function OurProgrammes() {
               </h2>
 
               <p className="text-black font-secondary text-sm sm:text-base md:text-lg leading-relaxed mb-4">
-               As per APL policy, students who turn 18 years of age before the completion of the academic year will be moved to the Adult Program.The Adult Program has been designed to enable such students to complete their schooling without any interruption to their academic progression.Students born in the year 2008 or earlier will be moved to the Adult Program. Under this program, students will attend their academic classes from 12:30 p.m. to 2:30 p.m., Monday to Friday. The Formal Indian Resident fee structure will be applicable to both CIE and NIOS students enrolled under this program.
+               As per APL policy, students who turn 18 years of age before the completion of the academic year will be moved to the Adult Program. The Adult Program has been designed to enable students to complete their schooling without any interruption to their academic progression. Under this program, students will attend their academic classes from 12:30 p.m. to 2:30 p.m., Monday to Friday. 
               </p>
             </div>
 

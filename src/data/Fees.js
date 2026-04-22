@@ -190,7 +190,7 @@ export const termsConditions = [
   "Pre-KG is 3 years as on 1st June 2026",
   "LKG is 4 years as on 1st June 2026",
   "UKG is 5 years as on 1st June 2026",
-  "For the academic year 2026-27, adult program eligibility is for students born on or before 1st December 2008",
+  
 
 ];
 
