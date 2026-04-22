@@ -43,7 +43,7 @@ const navItems = [
   {
     label: "Admission",
     dropdown: [
-      { label: "Fees and Process", path: "/apl-fees-and-streams" },
+      { label: "Fees and Process", path: "/admissions/fees-and-streams-2020" },
       {
         label: "Registration",
         path: "https://sch.edulip.in/UI/Website/APL/RegistrationForm.php",

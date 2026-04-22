@@ -28,7 +28,7 @@ import BeyondClassRoom from "./pages/Child Centered/BeyondClassroom";
 import APLEvents from "./pages/Child Centered/APLEvents";
 
 // Admission
-import FeesAndStreams from "./pages/Admission/FeesandStreams";
+import FeesAndStreams from "./pages/Admission/fees-and-streams-2020";
 import Registration from "./pages/Admission/Registration";
 
 // Gallery & Others
@@ -133,7 +133,7 @@ function App() {
           <Route path="/expressions" element={<ExpressionSection />} />
 
           {/* Admission */}
-          <Route path="/apl-fees-and-streams" element={<FeesAndStreams />} />
+          <Route path="/admissions/fees-and-streams-2020" element={<FeesAndStreams />} />
           <Route path="/apl-registration" element={<Registration />} />
           <Route path="/day-at-school" element={<ADayAtAPL />} />
           <Route path="/vatsa" element={<VatsaPage />} />

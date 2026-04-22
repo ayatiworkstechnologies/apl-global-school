@@ -871,13 +871,13 @@ function OurProgrammes() {
           <div className="flex flex-col md:flex-row gap-10 items-start">
             {/* ✅ Left: Text Content */}
             <div className="flex-1 space-y-8">
-              <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-primary font-primary border-b-2 border-secondary inline-block mb-4">
+              <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-primary font-primary border-b-2 border-secondary inline-block mb-2">
                 Kamalam
               </h2>
 
-              <h4 className="text-xl sm:text-2xl md:text-3xl font-semibold text-primary font-primary mt-4">A Holistic Learning Unit for Unique Learners</h4>
+              <h4 className="text-xl sm:text-2xl md:text-3xl font-semibold text-primary font-primary mt-2">A Holistic Learning Unit for Unique Learners</h4>
 
-               <h6 className="text-sm sm:text-xl md:text-2xl font-semibold text-black font-primary mt-4">Where Every Child Finds Space to Grow, Learn & Shine</h6>
+               <h6 className="text-sm sm:text-xl md:text-2xl font-semibold text-black font-primary mt-2">Where Every Child Finds Space to Grow, Learn & Shine</h6>
 
               <p className="text-black font-secondary text-sm sm:text-base md:text-lg leading-relaxed">
                  
@@ -885,20 +885,20 @@ function OurProgrammes() {
                 Here, we offer a warm, inclusive, and thoughtfully structured environment where learning is personalized and rooted in compassion. Education here goes beyond academics—it embraces life skills, social-emotional growth, and meaningful experiences that help children understand themselves and the world around them.
                 </p>
 
-                  <h4 className="text-xl sm:text-2xl md:text-3xl font-semibold text-primary font-primary mt-4">What Makes Kamalam Special</h4>
+                  <h4 className="text-xl sm:text-2xl md:text-3xl font-semibold text-primary font-primary mt-2">What Makes Kamalam Special</h4>
 
-                      <h6 className="text-sm sm:text-xl md:text-2xl font-semibold text-black font-primary mt-4">Customised Learning for Every Child</h6>
+                      <h6 className="text-sm sm:text-xl md:text-2xl font-semibold text-black font-primary mt-2">Customised Learning for Every Child</h6>
 
                      <p className="text-black font-secondary text-sm sm:text-base md:text-lg leading-relaxed">
                  
                  Each learner at Kamalam follows an Individualised Education Plan (IEP) co-created by a dedicated team of special educators, therapists, coordinators, and parents. Every plan is rooted in the child’s unique strengths, interests, and needs, ensuring they grow with confidence, independence, and dignity.
                 </p>
-                <h4 className="text-xl sm:text-2xl md:text-3xl font-semibold text-primary font-primary mt-4">A Safe & Inclusive Space</h4>
+                <h4 className="text-xl sm:text-2xl md:text-3xl font-semibold text-primary font-primary mt-2">A Safe & Inclusive Space</h4>
                 <p className="text-black font-secondary text-sm sm:text-base md:text-lg leading-relaxed">
                  
                  Our classrooms are thoughtfully designed for comfort, safety, and sensory regulation, ensuring every child feels secure, valued, and ready to learn.
                 </p>
-              <h4 className="text-xl sm:text-2xl md:text-3xl font-semibold text-primary font-primary mt-4">Holistic Development at the Heart</h4>
+              <h4 className="text-xl sm:text-2xl md:text-3xl font-semibold text-primary font-primary mt-2">Holistic Development at the Heart</h4>
               <p className="text-black font-secondary text-sm sm:text-base md:text-lg leading-relaxed">   
                   Beyond functional academics, we focus on building communication, independence, self-regulation, emotional well-being, social skills, and life readiness.
                   </p>
