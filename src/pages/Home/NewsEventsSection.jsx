@@ -231,7 +231,7 @@ export default function NewsEventsTabs() {
               animate={{ opacity: 1, x: 0 }}
               className="text-3xl md:text-4xl uppercase font-primary font-black text-primary"
             >
-              {activeTab === "Alumni" ? "Alumni Placements" : activeTab}
+              {activeTab === "Alumni" ? "Alumni" : activeTab}
             </motion.h2>
             <div className={`w-20 h-2 mt-2 rounded-full ${activeTab === 'Alumni' && data.Alumni ? 'bg-secondary' : 'bg-secondary'}`} />
           </div>
